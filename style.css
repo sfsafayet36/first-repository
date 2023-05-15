@@ -1,0 +1,617 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+:root{
+  --main-color: rgba(255, 188, 39);
+  
+}
+
+
+
+#main-header{
+ background-image: url(/images/background.jpg)
+;
+background-size: cover;
+height: 600px;
+width: 100%;
+
+}
+body{
+
+
+}
+.menubar{
+  display: none;
+}
+
+
+
+.navbar{
+  display: flex;
+  height: 60px;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  
+}
+ul{
+  display: flex;
+}
+ul li{
+  margin: 20px;
+  
+}
+ul li a{
+  color: black;
+  font-size: 15px;
+  transition: 0.2s ease;
+}
+
+
+ul li a:hover{
+  border-bottom: 3px solid var(--main-color);
+  color: var(--main-color);
+  
+}
+
+
+
+
+.logolink{
+  color: black;
+  font-weight: bolder;
+  font-size: 20px;
+
+}
+
+
+.buzz{
+  color: var(--main-color);
+  
+}
+
+.bx-search-alt{
+  color: white;
+  font-size: 25px;
+}
+
+
+#content{
+  position: relative;
+  top: 190px;
+  margin-left: 50px;
+  
+}
+
+.first-heading{
+  font-size: 2.6rem;
+  font-weight: bolder;
+  
+}
+
+.paragraph {
+  width: 430px;
+  margin: 0 0 20px 0;
+}
+
+
+
+.buy-button{
+  color: white;
+  background-color: var(--main-color);
+  padding: 6px 16px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px black;
+  position: relative;
+}
+
+.buy-button:hover{
+  background-color: rgba(203, 139, 0);
+  
+}
+
+.allcontent {
+  background-color: white;
+  filter: brightness(97%);
+  padding: 40px 0;
+}
+
+
+.section-heading{
+  text-align: center;
+  font-size: 2rem;
+  margin: 0 25px;
+  
+  
+}
+.sports-cars{
+  display: flex;
+  
+}
+
+
+.imgsize{
+  width: 280px;
+  margin: 0 20px;
+  transition: 0.2s ease;
+}
+.imgsize:hover{
+  transform: scale(1.1);
+}
+
+
+
+
+.section-h{
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.section-p{
+  text-align: center;
+  font-size: 15px;
+  margin-top: 10px;
+  
+}
+
+.allcar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.readmore{
+  color: white;
+  background-color: var(--main-color);
+  font-weight: bolder;
+  border-radius: 10px;
+ padding: 4px 9px;
+ margin-top: 15px;
+  font-size: 20px;
+  transition: 0.3s ease;
+}
+.readmore:hover{
+  background-color: rgba(203, 139, 0);
+  transform: scale(1.2);
+}
+
+
+
+
+.second-sportscar{
+  display: flex;
+  margin-top: 20px;
+  
+}
+
+.section-secondheading{
+  text-align: center;
+  font-size: 2rem;
+  margin: 40px;
+}
+
+
+.luxury-cars{
+  display: flex;
+}
+
+.bentley{
+  margin-top: 10px;
+}
+
+.bentley-h{
+  margin-top: 10px;
+}
+
+.bmw-p{
+  padding: 0 10px;
+}
+
+
+.second-luxurycar{
+  display: flex;
+  
+}
+
+.lexux{
+  margin-top: 20px;
+}
+.lexux-p{
+  padding: 0 10px;
+}
+
+.rollsroyce{
+  margin-top: 80px;
+}
+
+.rollsroyce-p{
+  padding: 0 20px;
+}
+
+.rangrover{
+  margin-top: 20px;
+}
+
+#about{
+  margin-top: 50px;
+  
+  
+}
+
+.about-h{
+  font-size: 3.5rem;
+  text-align: center;
+  margin-top: 40px;
+
+}
+.about-pic{
+  width: 100%;
+  
+}
+
+.about-p{
+  font-size: 1.8rem;
+  font-weight: bolder;
+  text-align: center;
+  padding: 0 30px;
+  animation-name: about;
+
+}
+#contact{
+  margin-top: 20px;
+  background-color: white;
+  filter: brightness(97%);
+  padding: 2px 0 200px 0;
+}
+
+
+
+.contact-h{
+  font-size: 3.5rem;
+  text-align: center;
+  margin: 40px 0;
+  
+}
+
+.form-box{
+  background-color: var(--main-color);
+  height: 570px;
+  margin: 20px 170px 0 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 30px;
+  box-shadow: 2px 5px 4px black;
+  padding: 65px 0 0 0;
+}
+
+.firstbox{
+  display: flex;
+  
+}
+
+.secondbox{
+  display: flex;
+}
+
+
+
+.allbox{
+  display: flex;
+  flex-direction: column;
+}
+
+.inputbox{
+  padding: 20px 0;
+  border: none;
+  border-radius: 5px;
+  
+}
+
+.labelname{
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.first-box{
+  margin-right: 8px;
+}
+
+.emailbox{
+  margin-right: 8px;
+}
+
+.smsbox{
+  padding: 50px 0;
+  width: 520px;
+  border-radius: 6px;
+  border: none;
+}
+
+
+.formsubmit{
+  padding: 15px 0;
+  width: 40%;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 20px;
+  border: none;
+  transition: 0.3s ease;
+}
+.formsubmit:hover{
+  background-color: var(--main-color);
+  border: 2px solid white;
+  padding: 13px 0;
+}
+
+.footer{
+  height: 300px;
+  width: 100%;
+  background-color: black;
+  position: relative;
+  bottom: 0;
+}
+.footer-tittle{
+  text-align: center;
+  font-size: 1.2em;
+  position: relative;
+  top: 20px;
+}
+
+
+.car-word{
+  color: white;
+}
+.footer-para{
+  margin-top: 30px;
+}
+
+.footer-p{
+  color: white;
+  text-align: center;
+  padding: 0 70px;
+}
+.footer-logos{
+  text-align: center;
+  margin-top: 25px;
+}
+
+
+.f-logo{
+  color: white;
+  font-size: 40px;
+  margin: 0 5px;
+}
+
+.footer-links{
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+}
+
+.footer-link{
+  color: white;
+  text-decoration: underline;
+  
+}
+
+@media (max-width: 425px){
+  
+ .navbar{
+  overflow: hidden;
+  width: 100%;
+  justify-content: space-between;
+display: flex;
+align-items: center;
+position: static;
+}
+
+
+
+ #ul-responsive{
+   position: absolute;
+   top: 0;
+   padding: 30px 0 0 0;
+   flex-direction: column;
+   background-color: white;
+   z-index: 1;
+   width: 100%;
+   height: 100%;
+   text-align: center;
+  transform: translateX(-100%);
+  
+  
+  
+   
+   
+ }
+ 
+ body{
+   
+ 
+ }
+ ul li a{
+   font-weight: bolder;
+   font-size: 1.2rem;
+   
+   
+ }
+ 
+ 
+ .sports-cars{
+   overflow: hidden;
+ }
+ .second-sportscar{
+   overflow: hidden;
+ }
+ 
+.luxury-cars{
+  overflow: hidden;
+}
+
+.second-luxurycar{
+  overflow: hidden;
+}
+  #main-header{
+    
+    background-position: 45% ;
+    
+  }
+  
+  .logolink {
+    font-size: 30px;
+  
+}
+.menubar{
+  display: inline-block;
+  font-size: 45px;
+  margin: 10px 0 0 6px;
+  z-index: 2;
+}
+
+
+.bx-search-alt{
+  color: black;
+  margin-right: 15px;
+  font-size: 35px;
+  margin-top: 10px;
+}
+
+.paragraph{
+  overflow: hidden;
+  width: 50%;
+  font-size: 12px;
+  padding: 0 10px;
+  
+}
+
+.sports-cars{
+  flex-direction: column;
+}
+
+.second-sportscar{
+  flex-direction: column;
+}
+
+.luxury-cars{
+  flex-direction: column;
+}
+
+.second-luxurycar{
+  flex-direction: column;
+}
+
+
+.form-box{
+  overflow: hidden;
+  margin: 0;
+ height: 550px;
+ margin: 0 30px;
+ padding: 0;
+ justify-content: center;
+}
+.inputbox{
+  padding: 10px 0;
+}
+
+.labelname{
+  font-size: 20px;
+  
+}
+
+.formsubmit{
+  padding: 8px 0;
+  width: 75%;
+}
+.formsubmit:hover {
+  padding: 7px 0;
+  
+}
+
+
+
+
+
+.firstbox{
+  display: flex;
+  flex-direction: column;
+  
+}
+.secondbox  {
+  display: flex ;
+  flex-direction: column;
+  
+  
+}
+
+
+.smsbox{
+  width: 100%;
+}
+
+.footer{
+  
+}
+
+.footer-p{
+  font-size: 12px;
+  padding: 0;
+  
+}
+.footer-link{
+  font-size: 12px;
+}
+
+
+
+
+
+
+#content{
+  position: absolute;
+  top: 120px;
+  margin-left: 8px;
+}
+
+
+.first-heading{
+  font-size: 2.5rem;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 15px;
+  padding: 0 15px;
+}
+.buy-button{
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.section-p{
+  padding: 0 10px;
+  
+}
+
+.about-h{
+  font-size: 2.5rem;
+}
+.about-p{
+  font-size: 12px;
+}
+
+
+}
