@@ -1,11 +1,12 @@
-function navClick(){
-  document.getElementById('ul-responsive').style.transform='translateX(-20%)'
-  
-document.getElementById('ul-responsive').style.transition='0.5s ease'
-}
+/* toggle button */
+let navtoggle = document.querySelector(".navtoggle")
 
-function navOver(){
-  document.getElementById('ul-responsive').style.transform='translateX(-100%)'
+let sidebar = document.querySelector(".ulresponsive"
+)
+
+navtoggle.addEventListener("click", function(){
+  sidebar.classList.toggle('open')
   
-  
-}
+})
+
+
